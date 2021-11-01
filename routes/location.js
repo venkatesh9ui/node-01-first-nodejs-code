@@ -15,6 +15,6 @@ router.post('/add-location', (req, res, next) => {
   res.json({ message: 'Stored location!' });
 });
 
-// router.get('/location', (req, res, next) => {});
+router.get('/location', (req, res, next) => {});
 
 module.exports = router;
